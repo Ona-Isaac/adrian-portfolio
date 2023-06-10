@@ -46,7 +46,7 @@ const Contact = () => (
         >
           <img
             src="/pexels.jpg"
-            alt="planet-09"
+            alt="landscape"
             className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
           />
           <motion.div

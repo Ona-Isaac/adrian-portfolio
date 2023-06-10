@@ -11,7 +11,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     <a href="">
       <img
         src={imgUrl}
-        alt="planet-01"
+        alt="Blog"
         className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
         />
     </a>

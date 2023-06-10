@@ -26,7 +26,7 @@ const Hero = () => (
             >
               <img
                 src="developer.png"
-                alt="cover"
+                alt="developer"
                 className="w-70px h-auto z-10 relative"
               />
             </motion.div>
