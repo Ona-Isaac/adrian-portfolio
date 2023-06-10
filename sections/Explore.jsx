@@ -18,7 +18,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Our Space" textStyles="text-center" />
+        <TypingText title="| My Space" textStyles="text-center" />
         <TitleText
           title={<>Explore some of the projects I've worked on</>}
           textStyles="text-center"

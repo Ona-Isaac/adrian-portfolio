@@ -3,8 +3,8 @@
 import '../styles/globals.css';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import styles from '../styles';
-import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
+import styles from '../../portfolio/styles';
+import { fadeIn, staggerContainer, zoomIn } from '../../portfolio/utils/motion';
 
 const Contact = () => (
   <>

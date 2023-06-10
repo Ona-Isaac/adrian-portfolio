@@ -20,7 +20,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] sm: text-[15px] text-center text-secondary-white"
       >
         As a Front-End Developer, I craft seamless, captivating digital experiences.
         With a mastery of code and an understanding of human psychology, I create interfaces
@@ -29,12 +29,14 @@ const About = () => (
         Let's redefine your digital presence together. Embrace the power of pixels and embark on a
         journey of limitless possibilities. Join me today and transform your digital dreams into reality.
       </motion.p>
-      <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
-        alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
-      />
+      <a href="#explore">
+        <motion.img
+          variants={fadeIn('up', 'tween', 0.3, 1)}
+          src="/arrow-down.svg"
+          alt="arrow down"
+          className="w-[18px] h-[28px] object-contain mt-[28px]"
+          />
+      </a>
     </motion.div>
   </section>
 );
