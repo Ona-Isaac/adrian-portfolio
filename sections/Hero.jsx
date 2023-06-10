@@ -35,7 +35,7 @@ const Hero = () => (
               className="flex-[0.75] flex justify-center flex-col"
             >
               <motion.p className="text-white">Hi</motion.p>
-              <motion.h1 className="font-bold lg:text-[60px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[90px] md:leading-[114.4px] sm:leading-[74.4px] leading-[60px] text-white">
+              <motion.h1 className="font-bold lg:text-[60px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[90px] md:leading-[114.4px] sm:leading-[74.4px] leading-[65px] text-white">
                 I'm Adrian <br /> A FRONT-END DEVELOPER
               </motion.h1>
               <TypingText title="Frontend development is a place where" />
