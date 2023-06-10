@@ -24,4 +24,5 @@ const nextConfig = {
       },
     });
     return config;
+    output: "export"
 }}
