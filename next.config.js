@@ -3,7 +3,7 @@
 const path = require('path')
 
 const nextConfig = {
-    
+    output: 'export',
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.svg/,
@@ -24,5 +24,4 @@ const nextConfig = {
       },
     });
     return config;
-    output: "export"
 }}
