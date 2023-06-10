@@ -3,8 +3,6 @@
 const path = require('path')
 
 const nextConfig = {
-    output: 'export',
-    images: { unoptimized: true },
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.svg/,
