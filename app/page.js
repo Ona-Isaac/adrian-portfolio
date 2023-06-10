@@ -4,7 +4,6 @@ import { About, Explore, GetStarted, Hero, WhatsUnique, Articles, Contact } from
 const Page = () => (
   <div className="bg-black overflow-hidden">
     <Navbar />
-    <div className="gradient-03 z-0" />
     <Hero />
     <div className="relative">
       <About />

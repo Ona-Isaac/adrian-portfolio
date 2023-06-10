@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
@@ -39,12 +38,10 @@ const Contact = () => (
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="relative flex-1 flex justify-center items-center"
         >
-          <Image
-            src="pexels.jpg"
+          <img
+            src="/pexels.jpg"
             alt="planet-09"
             className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-            width='100'
-            height='100'
           />
           <motion.div
             variants={zoomIn(0.4, 1)}

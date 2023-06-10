@@ -7,6 +7,7 @@ import { TypingText } from '../components';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:p-16 xs:p-8 px-6 py-12 relative z-10`}>
+    <div className="gradient-03 z-0" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -34,7 +35,7 @@ const Hero = () => (
               className="flex-[0.75] flex justify-center flex-col"
             >
               <motion.p className="text-white">Hi</motion.p>
-              <motion.h1 className="font-bold lg:text-[60px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[100px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] text-white">
+              <motion.h1 className="font-bold lg:text-[60px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[90px] md:leading-[114.4px] sm:leading-[74.4px] leading-[57px] text-white">
                 I'm Adrian <br /> A FRONT-END DEVELOPER
               </motion.h1>
               <TypingText title="Frontend development is a place where" />
